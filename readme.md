@@ -85,7 +85,9 @@ Base Layout Helpers includes styles for adding spaced rows (`.pad-top-5, .pad-bo
 | `.inline` | Applies display `inline` | `<div class="inline">This element will be inline</div>` | Applies a display of `inline` to a `div` element for all breakpoints |
 | `.flex` | Applies display `flex` | `<div class="flex">This element will be flex</div>` | Applies a display of `flex` to a `div` element for all breakpoints |
 | `.flex-row` | Applies flex direction `row` | `<div class="flex flex-row">Flex direction will be row</div>` | Applies a flex direction of `flex-row` to a `div` element for all breakpoints |
+| `.flex-row-reverse` | Applies flex direction `row-reverse` | `<div class="flex flex-row-reverse">Flex direction will be row in reverse</div>` | Applies a flex direction of `flex-row-reverse` to a `div` element for all breakpoints |
 | `.flex-column` | Applies flex direction `column` | `<div class="flex flex-column">Flex direction will be column</div>` | Applies a flex direction of `flex-column` to a `div` element for all breakpoints |
+| `.flex-column-reverse` | Applies flex direction `column-reverse` | `<div class="flex flex-column-reverse">Flex direction will be column reverse</div>` | Applies a flex direction of `flex-column-reverse` to a `div` element for all breakpoints |
 | `.flex-space-around` | Applies spacing around elements within a flex container | `<div class="flex flex-space-around">Flex space around is applied</div>` | Applies spacing around elements within a `div` element for all breakpoints |
 | `.flex-space-between` | Applies spacing between elements within a flex container | `<div class="flex flex-space-between">Flex space between is applied</div>` | Applies spacing between elements within a `div` element for all breakpoints |
 | `.flex-start` | Applies alignment of a flex item to the start | `<div class="flex flex-start">This item will be aligned to the start</div>` | Aligns element within a `div` element to the start for all breakpoints |
@@ -142,8 +144,10 @@ Base Layout Helpers includes styles for adding spaced rows (`.pad-top-5, .pad-bo
 | `.inline-block-m` | Applies display `inline-block` | `<div class="inline-block-m">This element will be inline-block</div>` | Applies a display of `inline-block` to a `div` element for medium devices and above |
 | `.inline-m` | Applies display `inline` | `<div class="inline-m">This element will be inline</div>` | Applies a display of `inline` to a `div` element for medium devices and above |
 | `.flex-m` | Applies display `flex` | `<div class="flex-m">This element will be flex</div>` | Applies a display of `flex` to a `div` element for medium devices and above |
-| `.flex-row-m` | Applies flex direction `row` | `<div class="flex-m flex-row-m">Flex direction will be row</div>` | Applies a flex direction of `flex-row` to a `div` element for medium devices and above |
-| `.flex-column-m` | Applies flex direction `column` | `<div class="flex-m flex-column-m">Flex direction will be column</div>` | Applies a flex direction of `flex-column` to a `div` element for medium devices and above |
+| `.flex-row-m` | Applies flex direction `row` | `<div class="flex-m flex-row-m">Flex direction will be row</div>` | Applies a flex direction of `flex-row-m` to a `div` element for medium devices and above |
+| `.flex-row-reverse-m` | Applies flex direction `row-reverse-m` | `<div class="flex-m flex-row-reverse-m">Flex direction will be row in reverse</div>` | Applies a flex direction of `flex-row-reverse-m` to a `div` element for medium devices and above |
+| `.flex-column-m` | Applies flex direction `column` | `<div class="flex-m flex-column-m">Flex direction will be column</div>` | Applies a flex direction of `flex-column-m` to a `div` element for medium devices and above |
+| `.flex-column-reverse-m` | Applies flex direction `column-reverse-m` | `<div class="flex-m flex-column-reverse-m">Flex direction will be column reverse</div>` | Applies a flex direction of `flex-column-reverse-m` to a `div` element for medium devices and above |
 | `.flex-space-around-m` | Applies spacing around elements within a flex container | `<div class="flex-m flex-space-around-m">Flex space around is applied</div>` | Applies spacing around elements within a `div` element for medium devices and above |
 | `.flex-space-between-m` | Applies spacing between elements within a flex container | `<div class="flex-m flex-space-between-m">Flex space between is applied</div>` | Applies spacing between elements within a `div` element for medium devices and above |
 | `.flex-start-m` | Applies alignment of a flex item to the start | `<div class="flex-m flex-start-m">This item will be aligned to the start</div>` | Aligns element within a `div` element to the start for medium devices and above |
@@ -200,8 +204,10 @@ Base Layout Helpers includes styles for adding spaced rows (`.pad-top-5, .pad-bo
 | `.inline-block-l` | Applies display `inline-block` | `<div class="inline-block-l">This element will be inline-block</div>` | Applies a display of `inline-block` to a `div` element for large devices and above |
 | `.inline-l` | Applies display `inline` | `<div class="inline-l">This element will be inline</div>` | Applies a display of `inline` to a `div` element for large devices and above |
 | `.flex-l` | Applies display `flex` | `<div class="flex-l">This element will be flex</div>` | Applies a display of `flex` to a `div` element for large devices and above |
-| `.flex-row-l` | Applies flex direction `row` | `<div class="flex-m flex-row-l">Flex direction will be row</div>` | Applies a flex direction of `flex-row` to a `div` element for large devices and above |
-| `.flex-column-l` | Applies flex direction `column` | `<div class="flex-m flex-column-l">Flex direction will be column</div>` | Applies a flex direction of `flex-column` to a `div` element for large devices and above |
+| `.flex-row-l` | Applies flex direction `row` | `<div class="flex-l flex-row-l">Flex direction will be row</div>` | Applies a flex direction of `flex-row-l` to a `div` element for large devices and above |
+| `.flex-row-reverse-l` | Applies flex direction `row-reverse-l` | `<div class="flex-l flex-row-reverse-l">Flex direction will be row in reverse</div>` | Applies a flex direction of `flex-row-reverse-l` to a `div` element for large devices and above |
+| `.flex-column-l` | Applies flex direction `column` | `<div class="flex-l flex-column-l">Flex direction will be column</div>` | Applies a flex direction of `flex-column-l` to a `div` element for large devices and above |
+| `.flex-column-reverse-l` | Applies flex direction `column-reverse-l` | `<div class="flex-l flex-column-reverse-l">Flex direction will be column reverse</div>` | Applies a flex direction of `flex-column-reverse-l` to a `div` element for large devices and above |
 | `.flex-space-around-l` | Applies spacing around elements within a flex container | `<div class="flex-m flex-space-around-l">Flex space around is applied</div>` | Applies spacing around elements within a `div` element for large devices and above |
 | `.flex-space-between-l` | Applies spacing between elements within a flex container | `<div class="flex-m flex-space-between-l">Flex space between is applied</div>` | Applies spacing between elements within a `div` element for large devices and above |
 | `.flex-start-l` | Applies alignment of a flex item to the start | `<div class="flex-m flex-start-l">This item will be aligned to the start</div>` | Aligns element within a `div` element to the start for large devices and above |
@@ -258,8 +264,10 @@ Base Layout Helpers includes styles for adding spaced rows (`.pad-top-5, .pad-bo
 | `.inline-block-xl` | Applies display `inline-block` | `<div class="inline-block-xl">This element will be inline-block</div>` | Applies a display of `inline-block` to a `div` element for extra large devices and above |
 | `.inline-xl` | Applies display `inline` | `<div class="inline-xl">This element will be inline</div>` | Applies a display of `inline` to a `div` element for extra large devices and above |
 | `.flex-xl` | Applies display `flex` | `<div class="flex-xl">This element will be flex</div>` | Applies a display of `flex` to a `div` element for extra large devices and above |
-| `.flex-row-xl` | Applies flex direction `row` | `<div class="flex-m flex-row-xl">Flex direction will be row</div>` | Applies a flex direction of `flex-row` to a `div` element for extra large devices and above |
-| `.flex-column-xl` | Applies flex direction `column` | `<div class="flex-m flex-column-xl">Flex direction will be column</div>` | Applies a flex direction of `flex-column` to a `div` element for extra large devices and above |
+| `.flex-row-xl` | Applies flex direction `row` | `<div class="flex-xl flex-row-xl">Flex direction will be row</div>` | Applies a flex direction of `flex-row-xl` to a `div` element for extra large devices and above |
+| `.flex-row-reverse-xl` | Applies flex direction `row-reverse-xl` | `<div class="flex-xl flex-row-reverse-xl">Flex direction will be row in reverse</div>` | Applies a flex direction of `flex-row-reverse-xl` to a `div` element for extra large devices and above |
+| `.flex-column-xl` | Applies flex direction `column` | `<div class="flex-xl flex-column-xl">Flex direction will be column</div>` | Applies a flex direction of `flex-column-xl` to a `div` element for extra large devices and above |
+| `.flex-column-reverse-xl` | Applies flex direction `column-reverse-xl` | `<div class="flex-xl flex-column-reverse-xl">Flex direction will be column reverse</div>` | Applies a flex direction of `flex-column-reverse-xl` to a `div` element for extra large devices and above |
 | `.flex-space-around-xl` | Applies spacing around elements within a flex container | `<div class="flex-m flex-space-around-xl">Flex space around is applied</div>` | Applies spacing around elements within a `div` element for extra large devices and above |
 | `.flex-space-between-xl` | Applies spacing between elements within a flex container | `<div class="flex-m flex-space-between-xl">Flex space between is applied</div>` | Applies spacing between elements within a `div` element for extra large devices and above |
 | `.flex-start-xl` | Applies alignment of a flex item to the start | `<div class="flex-m flex-start-xl">This item will be aligned to the start</div>` | Aligns element within a `div` element to the start for extra large devices and above |
@@ -310,7 +318,7 @@ Base Layout Helpers includes styles for adding spaced rows (`.pad-top-5, .pad-bo
 
 ## Demo
 
-[View page example](https://cdn.rawgit.com/getbase/layout-helpers/master/index.html) with the layout helpers stylesheet applied.
+[View page example](https://rawgit.com/getbase/layout-helpers/master/index.html) with the layout helpers stylesheet applied.
 
 * * *
 
