@@ -1,5 +1,11 @@
 # Base Layout Helpers Change Log
 
+## [4.0.2] - 2018-04-17
+### Base Layout Helpers V4.0.2
+- Removed `.pad-top-*`, `.pad-bottom-*`, `.pad-*` for all breakpoints (moved into layout-spacers)
+- Updated documentation
+- Updated index.scss/less and package.json
+
 ## [4.0.1] - 2018-04-14
 ### Base Layout Helpers V4.0.1
 - Added `.flex-row-reverse` and `.flex-column-reverse` for all breakpoints

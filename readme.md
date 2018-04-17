@@ -25,7 +25,7 @@ Base Layout Helpers is designed in a way where you can add it on top of the Base
 
 ## Overview
 
-Base Layout Helpers contains styles for adding spaced rows (`.pad-top-5, .pad-bottom-20`, etc), spaced layout (`pad-5, pad-20`, etc), resetting margins, resetting paddings, resetting floats, setting position types and flex helpers for all breakpoints.
+Base Layout Helpers contains styles for resetting margins, resetting paddings, resetting floats, setting position types and flex helpers for all breakpoints.
 
 * * *
 
@@ -67,7 +67,7 @@ Once you have the layout helpers module installed, you can include it in your CS
 
 ## Documentation
 
-Base Layout Helpers includes styles for adding spaced rows (`.pad-top-5, .pad-bottom-20`, etc), spaced layout (`pad-5, pad-20`, etc), resetting margins, resetting paddings, resetting floats, setting position types and flex helpers for all breakpoints
+Base Layout Helpers includes styles for resetting margins, resetting paddings, resetting floats, setting position types and flex helpers for all breakpoints.
 
 #### Helpers (Applies to SCSS/LESS)
 
@@ -97,42 +97,6 @@ Base Layout Helpers includes styles for adding spaced rows (`.pad-top-5, .pad-bo
 | `.flex-no-wrap` | Applies flex items to not wrap within a flex container | `<div class="flex flex-no-wrap">Flex items will not wrap within a flex container</div>` | `div` elements will not wrap within a flex container for all breakpoints |
 | `.left` | Applies float `left` | `<div class="left">This element will float left</div>` | Applies a float `left` to a `div` element for all breakpoints |
 | `.right` | Applies float `right` | `<div class="right">This element will float right</div>` | Applies a float `right` to a `div` element for all breakpoints |
-| `.pad-top-5` | Applies top padding `5px` | `<div class="pad-top-5">This element will have a top padding of 5px</div>` | Applies a `padding-top` of `5px` to a `div` element for all breakpoints |
-| `.pad-top-10` | Applies top padding `10px` | `<div class="pad-top-10">This element will have a top padding of 10px</div>` | Applies a `padding-top` of `10px` to a `div` element for all breakpoints |
-| `.pad-top-15` | Applies top padding `15px` | `<div class="pad-top-15">This element will have a top padding of 15px</div>` | Applies a `padding-top` of `15px` to a `div` element for all breakpoints |
-| `.pad-top-20` | Applies top padding `20px` | `<div class="pad-top-20">This element will have a top padding of 20px</div>` | Applies a `padding-top` of `20px` to a `div` element for all breakpoints |
-| `.pad-top-25` | Applies top padding `25px` | `<div class="pad-top-25">This element will have a top padding of 25px</div>` | Applies a `padding-top` of `25px` to a `div` element for all breakpoints |
-| `.pad-top-30` | Applies top padding `30px` | `<div class="pad-top-30">This element will have a top padding of 30px</div>` | Applies a `padding-top` of `30px` to a `div` element for all breakpoints |
-| `.pad-top-35` | Applies top padding `35px` | `<div class="pad-top-35">This element will have a top padding of 35px</div>` | Applies a `padding-top` of `35px` to a `div` element for all breakpoints |
-| `.pad-top-40` | Applies top padding `40px` | `<div class="pad-top-40">This element will have a top padding of 40px</div>` | Applies a `padding-top` of `40px` to a `div` element for all breakpoints |
-| `.pad-top-45` | Applies top padding `45px` | `<div class="pad-top-45">This element will have a top padding of 45px</div>` | Applies a `padding-top` of `45px` to a `div` element for all breakpoints |
-| `.pad-top-50` | Applies top padding `50px` | `<div class="pad-top-50">This element will have a top padding of 50px</div>` | Applies a `padding-top` of `50px` to a `div` element for all breakpoints |
-| `.pad-top-55` | Applies top padding `55px` | `<div class="pad-top-55">This element will have a top padding of 55px</div>` | Applies a `padding-top` of `55px` to a `div` element for all breakpoints |
-| `.pad-top-60` | Applies top padding `60px` | `<div class="pad-top-60">This element will have a top padding of 60px</div>` | Applies a `padding-top` of `60px` to a `div` element for all breakpoints |
-| `.pad-bottom-5` | Applies bottom padding `5px` | `<div class="pad-bottom-5">This element will have a bottom padding of 5px</div>` | Applies a `padding-bottom` of `5px` to a `div` element for all breakpoints |
-| `.pad-bottom-10` | Applies bottom padding `10px` | `<div class="pad-bottom-10">This element will have a bottom padding of 10px</div>` | Applies a `padding-bottom` of `10px` to a `div` element for all breakpoints |
-| `.pad-bottom-15` | Applies bottom padding `15px` | `<div class="pad-bottom-15">This element will have a bottom padding of 15px</div>` | Applies a `padding-bottom` of `15px` to a `div` element for all breakpoints |
-| `.pad-bottom-20` | Applies bottom padding `20px` | `<div class="pad-bottom-20">This element will have a bottom padding of 20px</div>` | Applies a `padding-bottom` of `20px` to a `div` element for all breakpoints |
-| `.pad-bottom-25` | Applies bottom padding `25px` | `<div class="pad-bottom-25">This element will have a bottom padding of 25px</div>` | Applies a `padding-bottom` of `25px` to a `div` element for all breakpoints |
-| `.pad-bottom-30` | Applies bottom padding `30px` | `<div class="pad-bottom-30">This element will have a bottom padding of 30px</div>` | Applies a `padding-bottom` of `30px` to a `div` element for all breakpoints |
-| `.pad-bottom-35` | Applies bottom padding `35px` | `<div class="pad-bottom-35">This element will have a bottom padding of 35px</div>` | Applies a `padding-bottom` of `35px` to a `div` element for all breakpoints |
-| `.pad-bottom-40` | Applies bottom padding `40px` | `<div class="pad-bottom-40">This element will have a bottom padding of 40px</div>` | Applies a `padding-bottom` of `40px` to a `div` element for all breakpoints |
-| `.pad-bottom-45` | Applies bottom padding `45px` | `<div class="pad-bottom-45">This element will have a bottom padding of 45px</div>` | Applies a `padding-bottom` of `45px` to a `div` element for all breakpoints |
-| `.pad-bottom-50` | Applies bottom padding `50px` | `<div class="pad-bottom-50">This element will have a bottom padding of 50px</div>` | Applies a `padding-bottom` of `50px` to a `div` element for all breakpoints |
-| `.pad-bottom-55` | Applies bottom padding `55px` | `<div class="pad-bottom-55">This element will have a bottom padding of 55px</div>` | Applies a `padding-bottom` of `55px` to a `div` element for all breakpoints |
-| `.pad-bottom-60` | Applies bottom padding `60px` | `<div class="pad-bottom-60">This element will have a bottom padding of 60px</div>` | Applies a `padding-bottom` of `60px` to a `div` element for all breakpoints |
-| `.pad-5` | Applies padding `5px` | `<div class="pad-5">This element will have a padding of 5px</div>` | Applies a `padding` of `5px` to a `div` element for all breakpoints |
-| `.pad-10` | Applies padding `10px` | `<div class="pad-10">This element will have a padding of 10px</div>` | Applies a `padding` of `10px` to a `div` element for all breakpoints |
-| `.pad-15` | Applies padding `15px` | `<div class="pad-15">This element will have a padding of 15px</div>` | Applies a `padding` of `15px` to a `div` element for all breakpoints |
-| `.pad-20` | Applies padding `20px` | `<div class="pad-20">This element will have a padding of 20px</div>` | Applies a `padding` of `20px` to a `div` element for all breakpoints |
-| `.pad-25` | Applies padding `25px` | `<div class="pad-25">This element will have a padding of 25px</div>` | Applies a `padding` of `25px` to a `div` element for all breakpoints |
-| `.pad-30` | Applies padding `30px` | `<div class="pad-30">This element will have a padding of 30px</div>` | Applies a `padding` of `30px` to a `div` element for all breakpoints |
-| `.pad-35` | Applies padding `35px` | `<div class="pad-35">This element will have a padding of 35px</div>` | Applies a `padding` of `35px` to a `div` element for all breakpoints |
-| `.pad-40` | Applies padding `40px` | `<div class="pad-40">This element will have a padding of 40px</div>` | Applies a `padding` of `40px` to a `div` element for all breakpoints |
-| `.pad-45` | Applies padding `45px` | `<div class="pad-45">This element will have a padding of 45px</div>` | Applies a `padding` of `45px` to a `div` element for all breakpoints |
-| `.pad-50` | Applies padding `50px` | `<div class="pad-50">This element will have a padding of 50px</div>` | Applies a `padding` of `50px` to a `div` element for all breakpoints |
-| `.pad-55` | Applies padding `55px` | `<div class="pad-55">This element will have a padding of 55px</div>` | Applies a `padding` of `55px` to a `div` element for all breakpoints |
-| `.pad-60` | Applies padding `60px` | `<div class="pad-60">This element will have a padding of 60px</div>` | Applies a `padding` of `60px` to a `div` element for all breakpoints |
 | `.no-margin-m` | Applies margin `0` | `<div class="no-margin-m">No margin</div>` | Applies a margin of `0` to a `div` element for medium devices and above |
 | `.no-padding-m` | Applies padding `0` | `<div class="no-padding-m">No padding</div>` | Applies a padding of `0` to a `div` element for medium devices and above |
 | `.no-float-m` | Applies float `none` | `<div class="no-float-m">No float</div>` | Applies a float of `none` to a `div` element for medium devices and above |
@@ -157,42 +121,6 @@ Base Layout Helpers includes styles for adding spaced rows (`.pad-top-5, .pad-bo
 | `.flex-no-wrap-m` | Applies flex items to not wrap within a flex container | `<div class="flex-m flex-no-wrap-m">Flex items will not wrap within a flex container</div>` | `div` elements will not wrap within a flex container for medium devices and above |
 | `.left-m` | Applies float `left` | `<div class="left-m">This element will float left</div>` | Applies a float `left` to a `div` element for medium devices and above |
 | `.right-m` | Applies float `right` | `<div class="right-m">This element will float right</div>` | Applies a float `right` to a `div` element for medium devices and above |
-| `.pad-top-5-m` | Applies top padding `5px` | `<div class="pad-top-5-m">This element will have a top padding of 5px</div>` | Applies a `padding-top` of `5px` to a `div` element for medium devices and above |
-| `.pad-top-10-m` | Applies top padding `10px` | `<div class="pad-top-10-m">This element will have a top padding of 10px</div>` | Applies a `padding-top` of `10px` to a `div` element for medium devices and above |
-| `.pad-top-15-m` | Applies top padding `15px` | `<div class="pad-top-15-m">This element will have a top padding of 15px</div>` | Applies a `padding-top` of `15px` to a `div` element for medium devices and above |
-| `.pad-top-20-m` | Applies top padding `20px` | `<div class="pad-top-20-m">This element will have a top padding of 20px</div>` | Applies a `padding-top` of `20px` to a `div` element for medium devices and above |
-| `.pad-top-25-m` | Applies top padding `25px` | `<div class="pad-top-25-m">This element will have a top padding of 25px</div>` | Applies a `padding-top` of `25px` to a `div` element for medium devices and above |
-| `.pad-top-30-m` | Applies top padding `30px` | `<div class="pad-top-30-m">This element will have a top padding of 30px</div>` | Applies a `padding-top` of `30px` to a `div` element for medium devices and above |
-| `.pad-top-35-m` | Applies top padding `35px` | `<div class="pad-top-35-m">This element will have a top padding of 35px</div>` | Applies a `padding-top` of `35px` to a `div` element for medium devices and above |
-| `.pad-top-40-m` | Applies top padding `40px` | `<div class="pad-top-40-m">This element will have a top padding of 40px</div>` | Applies a `padding-top` of `40px` to a `div` element for medium devices and above |
-| `.pad-top-45-m` | Applies top padding `45px` | `<div class="pad-top-45-m">This element will have a top padding of 45px</div>` | Applies a `padding-top` of `45px` to a `div` element for medium devices and above |
-| `.pad-top-50-m` | Applies top padding `50px` | `<div class="pad-top-50-m">This element will have a top padding of 50px</div>` | Applies a `padding-top` of `50px` to a `div` element for medium devices and above |
-| `.pad-top-55-m` | Applies top padding `55px` | `<div class="pad-top-55-m">This element will have a top padding of 55px</div>` | Applies a `padding-top` of `55px` to a `div` element for medium devices and above |
-| `.pad-top-60-m` | Applies top padding `60px` | `<div class="pad-top-60-m">This element will have a top padding of 60px</div>` | Applies a `padding-top` of `60px` to a `div` element for medium devices and above |
-| `.pad-bottom-5-m` | Applies bottom padding `5px` | `<div class="pad-bottom-5-m">This element will have a bottom padding of 5px</div>` | Applies a `padding-bottom` of `5px` to a `div` element for medium devices and above |
-| `.pad-bottom-10-m` | Applies bottom padding `10px` | `<div class="pad-bottom-10-m">This element will have a bottom padding of 10px</div>` | Applies a `padding-bottom` of `10px` to a `div` element for medium devices and above |
-| `.pad-bottom-15-m` | Applies bottom padding `15px` | `<div class="pad-bottom-15-m">This element will have a bottom padding of 15px</div>` | Applies a `padding-bottom` of `15px` to a `div` element for medium devices and above |
-| `.pad-bottom-20-m` | Applies bottom padding `20px` | `<div class="pad-bottom-20-m">This element will have a bottom padding of 20px</div>` | Applies a `padding-bottom` of `20px` to a `div` element for medium devices and above |
-| `.pad-bottom-25-m` | Applies bottom padding `25px` | `<div class="pad-bottom-25-m">This element will have a bottom padding of 25px</div>` | Applies a `padding-bottom` of `25px` to a `div` element for medium devices and above |
-| `.pad-bottom-30-m` | Applies bottom padding `30px` | `<div class="pad-bottom-30-m">This element will have a bottom padding of 30px</div>` | Applies a `padding-bottom` of `30px` to a `div` element for medium devices and above |
-| `.pad-bottom-35-m` | Applies bottom padding `35px` | `<div class="pad-bottom-35-m">This element will have a bottom padding of 35px</div>` | Applies a `padding-bottom` of `35px` to a `div` element for medium devices and above |
-| `.pad-bottom-40-m` | Applies bottom padding `40px` | `<div class="pad-bottom-40-m">This element will have a bottom padding of 40px</div>` | Applies a `padding-bottom` of `40px` to a `div` element for medium devices and above |
-| `.pad-bottom-45-m` | Applies bottom padding `45px` | `<div class="pad-bottom-45-m">This element will have a bottom padding of 45px</div>` | Applies a `padding-bottom` of `45px` to a `div` element for medium devices and above |
-| `.pad-bottom-50-m` | Applies bottom padding `50px` | `<div class="pad-bottom-50-m">This element will have a bottom padding of 50px</div>` | Applies a `padding-bottom` of `50px` to a `div` element for medium devices and above |
-| `.pad-bottom-55-m` | Applies bottom padding `55px` | `<div class="pad-bottom-55-m">This element will have a bottom padding of 55px</div>` | Applies a `padding-bottom` of `55px` to a `div` element for medium devices and above |
-| `.pad-bottom-60-m` | Applies bottom padding `60px` | `<div class="pad-bottom-60-m">This element will have a bottom padding of 60px</div>` | Applies a `padding-bottom` of `60px` to a `div` element for medium devices and above |
-| `.pad-5-m` | Applies padding `5px` | `<div class="pad-5-m">This element will have a padding of 5px</div>` | Applies a `padding` of `5px` to a `div` element for medium devices and above |
-| `.pad-10-m` | Applies padding `10px` | `<div class="pad-10-m">This element will have a padding of 10px</div>` | Applies a `padding` of `10px` to a `div` element for medium devices and above |
-| `.pad-15-m` | Applies padding `15px` | `<div class="pad-15-m">This element will have a padding of 15px</div>` | Applies a `padding` of `15px` to a `div` element for medium devices and above |
-| `.pad-20-m` | Applies padding `20px` | `<div class="pad-20-m">This element will have a padding of 20px</div>` | Applies a `padding` of `20px` to a `div` element for medium devices and above |
-| `.pad-25-m` | Applies padding `25px` | `<div class="pad-25-m">This element will have a padding of 25px</div>` | Applies a `padding` of `25px` to a `div` element for medium devices and above |
-| `.pad-30-m` | Applies padding `30px` | `<div class="pad-30-m">This element will have a padding of 30px</div>` | Applies a `padding` of `30px` to a `div` element for medium devices and above |
-| `.pad-35-m` | Applies padding `35px` | `<div class="pad-35-m">This element will have a padding of 35px</div>` | Applies a `padding` of `35px` to a `div` element for medium devices and above |
-| `.pad-40-m` | Applies padding `40px` | `<div class="pad-40-m">This element will have a padding of 40px</div>` | Applies a `padding` of `40px` to a `div` element for medium devices and above |
-| `.pad-45-m` | Applies padding `45px` | `<div class="pad-45-m">This element will have a padding of 45px</div>` | Applies a `padding` of `45px` to a `div` element for medium devices and above |
-| `.pad-50-m` | Applies padding `50px` | `<div class="pad-50-m">This element will have a padding of 50px</div>` | Applies a `padding` of `50px` to a `div` element for medium devices and above |
-| `.pad-55-m` | Applies padding `55px` | `<div class="pad-55-m">This element will have a padding of 55px</div>` | Applies a `padding` of `55px` to a `div` element for medium devices and above |
-| `.pad-60-m` | Applies padding `60px` | `<div class="pad-60-m">This element will have a padding of 60px</div>` | Applies a `padding` of `60px` to a `div` element for medium devices and above |
 | `.no-margin-l` | Applies margin `0` | `<div class="no-margin-l">No margin</div>` | Applies a margin of `0` to a `div` element for large devices and above |
 | `.no-padding-l` | Applies padding `0` | `<div class="no-padding-l">No padding</div>` | Applies a padding of `0` to a `div` element for large devices and above |
 | `.no-float-l` | Applies float `none` | `<div class="no-float-l">No float</div>` | Applies a float of `none` to a `div` element for large devices and above |
@@ -217,42 +145,6 @@ Base Layout Helpers includes styles for adding spaced rows (`.pad-top-5, .pad-bo
 | `.flex-no-wrap-l` | Applies flex items to not wrap within a flex container | `<div class="flex-m flex-no-wrap-l">Flex items will not wrap within a flex container</div>` | `div` elements will not wrap within a flex container for large devices and above |
 | `.left-l` | Applies float `left` | `<div class="left-l">This element will float left</div>` | Applies a float `left` to a `div` element for large devices and above |
 | `.right-l` | Applies float `right` | `<div class="right-l">This element will float right</div>` | Applies a float `right` to a `div` element for large devices and above |
-| `.pad-top-5-l` | Applies top padding `5px` | `<div class="pad-top-5-l">This element will have a top padding of 5px</div>` | Applies a `padding-top` of `5px` to a `div` element for large devices and above |
-| `.pad-top-10-l` | Applies top padding `10px` | `<div class="pad-top-10-l">This element will have a top padding of 10px</div>` | Applies a `padding-top` of `10px` to a `div` element for large devices and above |
-| `.pad-top-15-l` | Applies top padding `15px` | `<div class="pad-top-15-l">This element will have a top padding of 15px</div>` | Applies a `padding-top` of `15px` to a `div` element for large devices and above |
-| `.pad-top-20-l` | Applies top padding `20px` | `<div class="pad-top-20-l">This element will have a top padding of 20px</div>` | Applies a `padding-top` of `20px` to a `div` element for large devices and above |
-| `.pad-top-25-l` | Applies top padding `25px` | `<div class="pad-top-25-l">This element will have a top padding of 25px</div>` | Applies a `padding-top` of `25px` to a `div` element for large devices and above |
-| `.pad-top-30-l` | Applies top padding `30px` | `<div class="pad-top-30-l">This element will have a top padding of 30px</div>` | Applies a `padding-top` of `30px` to a `div` element for large devices and above |
-| `.pad-top-35-l` | Applies top padding `35px` | `<div class="pad-top-35-l">This element will have a top padding of 35px</div>` | Applies a `padding-top` of `35px` to a `div` element for large devices and above |
-| `.pad-top-40-l` | Applies top padding `40px` | `<div class="pad-top-40-l">This element will have a top padding of 40px</div>` | Applies a `padding-top` of `40px` to a `div` element for large devices and above |
-| `.pad-top-45-l` | Applies top padding `45px` | `<div class="pad-top-45-l">This element will have a top padding of 45px</div>` | Applies a `padding-top` of `45px` to a `div` element for large devices and above |
-| `.pad-top-50-l` | Applies top padding `50px` | `<div class="pad-top-50-l">This element will have a top padding of 50px</div>` | Applies a `padding-top` of `50px` to a `div` element for large devices and above |
-| `.pad-top-55-l` | Applies top padding `55px` | `<div class="pad-top-55-l">This element will have a top padding of 55px</div>` | Applies a `padding-top` of `55px` to a `div` element for large devices and above |
-| `.pad-top-60-l` | Applies top padding `60px` | `<div class="pad-top-60-l">This element will have a top padding of 60px</div>` | Applies a `padding-top` of `60px` to a `div` element for large devices and above |
-| `.pad-bottom-5-l` | Applies bottom padding `5px` | `<div class="pad-bottom-5-l">This element will have a bottom padding of 5px</div>` | Applies a `padding-bottom` of `5px` to a `div` element for large devices and above |
-| `.pad-bottom-10-l` | Applies bottom padding `10px` | `<div class="pad-bottom-10-l">This element will have a bottom padding of 10px</div>` | Applies a `padding-bottom` of `10px` to a `div` element for large devices and above |
-| `.pad-bottom-15-l` | Applies bottom padding `15px` | `<div class="pad-bottom-15-l">This element will have a bottom padding of 15px</div>` | Applies a `padding-bottom` of `15px` to a `div` element for large devices and above |
-| `.pad-bottom-20-l` | Applies bottom padding `20px` | `<div class="pad-bottom-20-l">This element will have a bottom padding of 20px</div>` | Applies a `padding-bottom` of `20px` to a `div` element for large devices and above |
-| `.pad-bottom-25-l` | Applies bottom padding `25px` | `<div class="pad-bottom-25-l">This element will have a bottom padding of 25px</div>` | Applies a `padding-bottom` of `25px` to a `div` element for large devices and above |
-| `.pad-bottom-30-l` | Applies bottom padding `30px` | `<div class="pad-bottom-30-l">This element will have a bottom padding of 30px</div>` | Applies a `padding-bottom` of `30px` to a `div` element for large devices and above |
-| `.pad-bottom-35-l` | Applies bottom padding `35px` | `<div class="pad-bottom-35-l">This element will have a bottom padding of 35px</div>` | Applies a `padding-bottom` of `35px` to a `div` element for large devices and above |
-| `.pad-bottom-40-l` | Applies bottom padding `40px` | `<div class="pad-bottom-40-l">This element will have a bottom padding of 40px</div>` | Applies a `padding-bottom` of `40px` to a `div` element for large devices and above |
-| `.pad-bottom-45-l` | Applies bottom padding `45px` | `<div class="pad-bottom-45-l">This element will have a bottom padding of 45px</div>` | Applies a `padding-bottom` of `45px` to a `div` element for large devices and above |
-| `.pad-bottom-50-l` | Applies bottom padding `50px` | `<div class="pad-bottom-50-l">This element will have a bottom padding of 50px</div>` | Applies a `padding-bottom` of `50px` to a `div` element for large devices and above |
-| `.pad-bottom-55-l` | Applies bottom padding `55px` | `<div class="pad-bottom-55-l">This element will have a bottom padding of 55px</div>` | Applies a `padding-bottom` of `55px` to a `div` element for large devices and above |
-| `.pad-bottom-60-l` | Applies bottom padding `60px` | `<div class="pad-bottom-60-l">This element will have a bottom padding of 60px</div>` | Applies a `padding-bottom` of `60px` to a `div` element for large devices and above |
-| `.pad-5-l` | Applies padding `5px` | `<div class="pad-5-l">This element will have a padding of 5px</div>` | Applies a `padding` of `5px` to a `div` element for large devices and above |
-| `.pad-10-l` | Applies padding `10px` | `<div class="pad-10-l">This element will have a padding of 10px</div>` | Applies a `padding` of `10px` to a `div` element for large devices and above |
-| `.pad-15-l` | Applies padding `15px` | `<div class="pad-15-l">This element will have a padding of 15px</div>` | Applies a `padding` of `15px` to a `div` element for large devices and above |
-| `.pad-20-l` | Applies padding `20px` | `<div class="pad-20-l">This element will have a padding of 20px</div>` | Applies a `padding` of `20px` to a `div` element for large devices and above |
-| `.pad-25-l` | Applies padding `25px` | `<div class="pad-25-l">This element will have a padding of 25px</div>` | Applies a `padding` of `25px` to a `div` element for large devices and above |
-| `.pad-30-l` | Applies padding `30px` | `<div class="pad-30-l">This element will have a padding of 30px</div>` | Applies a `padding` of `30px` to a `div` element for large devices and above |
-| `.pad-35-l` | Applies padding `35px` | `<div class="pad-35-l">This element will have a padding of 35px</div>` | Applies a `padding` of `35px` to a `div` element for large devices and above |
-| `.pad-40-l` | Applies padding `40px` | `<div class="pad-40-l">This element will have a padding of 40px</div>` | Applies a `padding` of `40px` to a `div` element for large devices and above |
-| `.pad-45-l` | Applies padding `45px` | `<div class="pad-45-l">This element will have a padding of 45px</div>` | Applies a `padding` of `45px` to a `div` element for large devices and above |
-| `.pad-50-l` | Applies padding `50px` | `<div class="pad-50-l">This element will have a padding of 50px</div>` | Applies a `padding` of `50px` to a `div` element for large devices and above |
-| `.pad-55-l` | Applies padding `55px` | `<div class="pad-55-l">This element will have a padding of 55px</div>` | Applies a `padding` of `55px` to a `div` element for large devices and above |
-| `.pad-60-l` | Applies padding `60px` | `<div class="pad-60-l">This element will have a padding of 60px</div>` | Applies a `padding` of `60px` to a `div` element for large devices and above |
 | `.no-margin-xl` | Applies margin `0` | `<div class="no-margin-xl">No margin</div>` | Applies a margin of `0` to a `div` element for extra large devices and above |
 | `.no-padding-xl` | Applies padding `0` | `<div class="no-padding-xl">No padding</div>` | Applies a padding of `0` to a `div` element for extra large devices and above |
 | `.no-float-xl` | Applies float `none` | `<div class="no-float-xl">No float</div>` | Applies a float of `none` to a `div` element for extra large devices and above |
@@ -277,42 +169,6 @@ Base Layout Helpers includes styles for adding spaced rows (`.pad-top-5, .pad-bo
 | `.flex-no-wrap-xl` | Applies flex items to not wrap within a flex container | `<div class="flex-m flex-no-wrap-xl">Flex items will not wrap within a flex container</div>` | `div` elements will not wrap within a flex container for extra large devices and above |
 | `.left-xl` | Applies float `left` | `<div class="left-xl">This element will float left</div>` | Applies a float `left` to a `div` element for extra large devices and above |
 | `.right-xl` | Applies float `right` | `<div class="right-xl">This element will float right</div>` | Applies a float `right` to a `div` element for extra large devices and above |
-| `.pad-top-5-xl` | Applies top padding `5px` | `<div class="pad-top-5-xl">This element will have a top padding of 5px</div>` | Applies a `padding-top` of `5px` to a `div` element for extra large devices and above |
-| `.pad-top-10-xl` | Applies top padding `10px` | `<div class="pad-top-10-xl">This element will have a top padding of 10px</div>` | Applies a `padding-top` of `10px` to a `div` element for extra large devices and above |
-| `.pad-top-15-xl` | Applies top padding `15px` | `<div class="pad-top-15-xl">This element will have a top padding of 15px</div>` | Applies a `padding-top` of `15px` to a `div` element for extra large devices and above |
-| `.pad-top-20-xl` | Applies top padding `20px` | `<div class="pad-top-20-xl">This element will have a top padding of 20px</div>` | Applies a `padding-top` of `20px` to a `div` element for extra large devices and above |
-| `.pad-top-25-xl` | Applies top padding `25px` | `<div class="pad-top-25-xl">This element will have a top padding of 25px</div>` | Applies a `padding-top` of `25px` to a `div` element for extra large devices and above |
-| `.pad-top-30-xl` | Applies top padding `30px` | `<div class="pad-top-30-xl">This element will have a top padding of 30px</div>` | Applies a `padding-top` of `30px` to a `div` element for extra large devices and above |
-| `.pad-top-35-xl` | Applies top padding `35px` | `<div class="pad-top-35-xl">This element will have a top padding of 35px</div>` | Applies a `padding-top` of `35px` to a `div` element for extra large devices and above |
-| `.pad-top-40-xl` | Applies top padding `40px` | `<div class="pad-top-40-xl">This element will have a top padding of 40px</div>` | Applies a `padding-top` of `40px` to a `div` element for extra large devices and above |
-| `.pad-top-45-xl` | Applies top padding `45px` | `<div class="pad-top-45-xl">This element will have a top padding of 45px</div>` | Applies a `padding-top` of `45px` to a `div` element for extra large devices and above |
-| `.pad-top-50-xl` | Applies top padding `50px` | `<div class="pad-top-50-xl">This element will have a top padding of 50px</div>` | Applies a `padding-top` of `50px` to a `div` element for extra large devices and above |
-| `.pad-top-55-xl` | Applies top padding `55px` | `<div class="pad-top-55-xl">This element will have a top padding of 55px</div>` | Applies a `padding-top` of `55px` to a `div` element for extra large devices and above |
-| `.pad-top-60-xl` | Applies top padding `60px` | `<div class="pad-top-60-xl">This element will have a top padding of 60px</div>` | Applies a `padding-top` of `60px` to a `div` element for extra large devices and above |
-| `.pad-bottom-5-xl` | Applies bottom padding `5px` | `<div class="pad-bottom-5-xl">This element will have a bottom padding of 5px</div>` | Applies a `padding-bottom` of `5px` to a `div` element for extra large devices and above |
-| `.pad-bottom-10-xl` | Applies bottom padding `10px` | `<div class="pad-bottom-10-xl">This element will have a bottom padding of 10px</div>` | Applies a `padding-bottom` of `10px` to a `div` element for extra large devices and above |
-| `.pad-bottom-15-xl` | Applies bottom padding `15px` | `<div class="pad-bottom-15-xl">This element will have a bottom padding of 15px</div>` | Applies a `padding-bottom` of `15px` to a `div` element for extra large devices and above |
-| `.pad-bottom-20-xl` | Applies bottom padding `20px` | `<div class="pad-bottom-20-xl">This element will have a bottom padding of 20px</div>` | Applies a `padding-bottom` of `20px` to a `div` element for extra large devices and above |
-| `.pad-bottom-25-xl` | Applies bottom padding `25px` | `<div class="pad-bottom-25-xl">This element will have a bottom padding of 25px</div>` | Applies a `padding-bottom` of `25px` to a `div` element for extra large devices and above |
-| `.pad-bottom-30-xl` | Applies bottom padding `30px` | `<div class="pad-bottom-30-xl">This element will have a bottom padding of 30px</div>` | Applies a `padding-bottom` of `30px` to a `div` element for extra large devices and above |
-| `.pad-bottom-35-xl` | Applies bottom padding `35px` | `<div class="pad-bottom-35-xl">This element will have a bottom padding of 35px</div>` | Applies a `padding-bottom` of `35px` to a `div` element for extra large devices and above |
-| `.pad-bottom-40-xl` | Applies bottom padding `40px` | `<div class="pad-bottom-40-xl">This element will have a bottom padding of 40px</div>` | Applies a `padding-bottom` of `40px` to a `div` element for extra large devices and above |
-| `.pad-bottom-45-xl` | Applies bottom padding `45px` | `<div class="pad-bottom-45-xl">This element will have a bottom padding of 45px</div>` | Applies a `padding-bottom` of `45px` to a `div` element for extra large devices and above |
-| `.pad-bottom-50-xl` | Applies bottom padding `50px` | `<div class="pad-bottom-50-xl">This element will have a bottom padding of 50px</div>` | Applies a `padding-bottom` of `50px` to a `div` element for extra large devices and above |
-| `.pad-bottom-55-xl` | Applies bottom padding `55px` | `<div class="pad-bottom-55-xl">This element will have a bottom padding of 55px</div>` | Applies a `padding-bottom` of `55px` to a `div` element for extra large devices and above |
-| `.pad-bottom-60-xl` | Applies bottom padding `60px` | `<div class="pad-bottom-60-xl">This element will have a bottom padding of 60px</div>` | Applies a `padding-bottom` of `60px` to a `div` element for extra large devices and above |
-| `.pad-5-xl` | Applies padding `5px` | `<div class="pad-5-xl">This element will have a padding of 5px</div>` | Applies a `padding` of `5px` to a `div` element for extra large devices and above |
-| `.pad-10-xl` | Applies padding `10px` | `<div class="pad-10-xl">This element will have a padding of 10px</div>` | Applies a `padding` of `10px` to a `div` element for extra large devices and above |
-| `.pad-15-xl` | Applies padding `15px` | `<div class="pad-15-xl">This element will have a padding of 15px</div>` | Applies a `padding` of `15px` to a `div` element for extra large devices and above |
-| `.pad-20-xl` | Applies padding `20px` | `<div class="pad-20-xl">This element will have a padding of 20px</div>` | Applies a `padding` of `20px` to a `div` element for extra large devices and above |
-| `.pad-25-xl` | Applies padding `25px` | `<div class="pad-25-xl">This element will have a padding of 25px</div>` | Applies a `padding` of `25px` to a `div` element for extra large devices and above |
-| `.pad-30-xl` | Applies padding `30px` | `<div class="pad-30-xl">This element will have a padding of 30px</div>` | Applies a `padding` of `30px` to a `div` element for extra large devices and above |
-| `.pad-35-xl` | Applies padding `35px` | `<div class="pad-35-xl">This element will have a padding of 35px</div>` | Applies a `padding` of `35px` to a `div` element for extra large devices and above |
-| `.pad-40-xl` | Applies padding `40px` | `<div class="pad-40-xl">This element will have a padding of 40px</div>` | Applies a `padding` of `40px` to a `div` element for extra large devices and above |
-| `.pad-45-xl` | Applies padding `45px` | `<div class="pad-45-xl">This element will have a padding of 45px</div>` | Applies a `padding` of `45px` to a `div` element for extra large devices and above |
-| `.pad-50-xl` | Applies padding `50px` | `<div class="pad-50-xl">This element will have a padding of 50px</div>` | Applies a `padding` of `50px` to a `div` element for extra large devices and above |
-| `.pad-55-xl` | Applies padding `55px` | `<div class="pad-55-xl">This element will have a padding of 55px</div>` | Applies a `padding` of `55px` to a `div` element for extra large devices and above |
-| `.pad-60-xl` | Applies padding `60px` | `<div class="pad-60-xl">This element will have a padding of 60px</div>` | Applies a `padding` of `60px` to a `div` element for extra large devices and above |
 
 * * *
 

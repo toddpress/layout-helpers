@@ -1,6 +1,6 @@
 {
   "name": "@getbase/layout-helpers",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Base Layout Helpers",
   "homepage": "http://getbase.org/",
   "main": "gulpfile.js",
