@@ -2,7 +2,7 @@
 
 // Base Layout Helpers - http://getbase.org
 // Author: Matthew Hartman - http://www.matthewhartman.com.au/
-// Version: 4.0.2 - Last Updated: April 17, 2018
+// Version: 4.0.3 - Last Updated: April 24, 2018
 
 ========================================================================== */
 *, *:before, *:after {
@@ -95,6 +95,21 @@
       -ms-flex-pack: end;
           justify-content: flex-end; }
 
+.flex-top {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.flex-middle {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.flex-bottom {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
 .flex-wrap {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
@@ -175,6 +190,18 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
+  .flex-top-m {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .flex-middle-m {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .flex-bottom-m {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
   .flex-wrap-m {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
@@ -252,6 +279,18 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
+  .flex-top-l {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .flex-middle-l {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .flex-bottom-l {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
   .flex-wrap-l {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
@@ -329,6 +368,18 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
+  .flex-top-xl {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .flex-middle-xl {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .flex-bottom-xl {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
   .flex-wrap-xl {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }

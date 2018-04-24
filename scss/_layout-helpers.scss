@@ -36,6 +36,9 @@
 .flex-start { justify-content: flex-start; }
 .flex-center { justify-content: center; }
 .flex-end { justify-content: flex-end; }
+.flex-top { align-items: flex-start; }
+.flex-middle { align-items: center; }
+.flex-bottom { align-items: flex-end; }
 .flex-wrap { flex-wrap: wrap; }
 .flex-no-wrap { flex-wrap: nowrap; }
 
@@ -74,6 +77,9 @@
   .flex-start-m { justify-content: flex-start; }
   .flex-center-m { justify-content: center; }
   .flex-end-m { justify-content: flex-end; }
+  .flex-top-m { align-items: flex-start; }
+  .flex-middle-m { align-items: center; }
+  .flex-bottom-m { align-items: flex-end; }
   .flex-wrap-m { flex-wrap: wrap; }
   .flex-no-wrap-m { flex-wrap: nowrap; }
 
@@ -113,6 +119,9 @@
   .flex-start-l { justify-content: flex-start; }
   .flex-center-l { justify-content: center; }
   .flex-end-l { justify-content: flex-end; }
+  .flex-top-l { align-items: flex-start; }
+  .flex-middle-l { align-items: center; }
+  .flex-bottom-l { align-items: flex-end; }
   .flex-wrap-l { flex-wrap: wrap; }
   .flex-no-wrap-l { flex-wrap: nowrap; }
 
@@ -152,6 +161,9 @@
   .flex-start-xl { justify-content: flex-start; }
   .flex-center-xl { justify-content: center; }
   .flex-end-xl { justify-content: flex-end; }
+  .flex-top-xl { align-items: flex-start; }
+  .flex-middle-xl { align-items: center; }
+  .flex-bottom-xl { align-items: flex-end; }
   .flex-wrap-xl { flex-wrap: wrap; }
   .flex-no-wrap-xl { flex-wrap: nowrap; }
 
