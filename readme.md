@@ -41,14 +41,14 @@ Once you have the layout helpers module installed, you can include it in your CS
 
 #### CSS Import:
   ```css
-  import url("https://cdn.rawgit.com/getbase/layout-helpers/master/css/index.css");
+  @import url("https://unpkg.com/@getbase/layout-helpers/index.css");
   ```
 
 #### SCSS Import:
 
   ```scss
   /* Import Base Layout Helpers */
-  @import "node_modules/@getbase/layout-helpers/scss/index";
+  @import "~@getbase/layout-helpers/scss/index";
   /* Your Other Styles */
   @import "main"
   ```
@@ -56,9 +56,9 @@ Once you have the layout helpers module installed, you can include it in your CS
 
 #### LESS Import:
 
-  ```css
+  ```less
   /* Import Base Layout Helpers */
-  @import "node_modules/@getbase/layout-helpers/scss/index";
+  @import "~@getbase/layout-helpers/less/index";
   /* Your Other Styles */
   @import "main"
   ```
@@ -186,7 +186,7 @@ Base Layout Helpers includes styles for resetting margins, resetting paddings, r
 
 ## Demo
 
-[View page example](https://rawgit.com/getbase/layout-helpers/master/index.html) with the layout helpers stylesheet applied.
+[View page example](https://unpkg.com/@getbase/layout-helpers/index.html) with the layout helpers stylesheet applied.
 
 * * *
 
